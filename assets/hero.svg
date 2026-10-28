@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Athina — curious mind, creative code</title>
+<desc id="desc">A purple orbital illustration on a midnight background, with drifting stars and glowing code brackets.</desc>
+<defs>
+ <radialGradient id="glow"><stop stop-color="#7c3aed" stop-opacity=".45"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></radialGradient>
+ <linearGradient id="line"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#c4b5fd" stroke-opacity=".045"/></pattern>
+</defs>
+<style>
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes pulse{50%{opacity:.3}}
+@keyframes drift{50%{transform:translateY(-9px)}}
+.orbit{transform-origin:940px 178px;animation:orbit 32s linear infinite}
+.star{animation:pulse 4s ease-in-out infinite}
+.code{animation:drift 5s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.orbit,.star,.code{animation:none}}
+</style>
+<rect width="1200" height="360" rx="20" fill="#0d1117"/>
+<rect width="1200" height="360" rx="20" fill="url(#grid)"/>
+<ellipse cx="930" cy="178" rx="300" ry="260" fill="url(#glow)"/>
+<path d="M62 61H112" stroke="url(#line)" stroke-width="3"/>
+<text x="128" y="66" fill="#a78bfa" font-family="monospace" font-size="13" letter-spacing="3">ATHINA09 / DEVELOPER IN PROGRESS</text>
+<text x="58" y="182" fill="#f5f3ff" font-family="Arial, sans-serif" font-weight="700" font-size="92" letter-spacing="-4">Hi, I'm Athina.</text>
+<text x="64" y="229" fill="#c4b5fd" font-family="Arial, sans-serif" font-size="24">Curious mind. Creative code.</text>
+<text x="64" y="303" fill="#8b949e" font-family="monospace" font-size="14" letter-spacing="2">LEARN / BUILD / ITERATE</text>
+<g fill="none" stroke="#a78bfa" stroke-opacity=".28">
+<circle cx="940" cy="178" r="112"/><ellipse cx="940" cy="178" rx="166" ry="60" transform="rotate(-30 940 178)"/>
+<ellipse cx="940" cy="178" rx="166" ry="60" transform="rotate(30 940 178)"/>
+</g>
+<g class="orbit"><circle cx="940" cy="66" r="7" fill="#c4b5fd"/><circle cx="940" cy="290" r="4" fill="#67e8f9"/></g>
+<g class="code" fill="none" stroke="url(#line)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M905 151L875 178L905 205M975 151L1005 178L975 205M952 142L928 214"/></g>
+<g fill="#c4b5fd"><circle class="star" cx="760" cy="71" r="2"/><circle class="star" cx="1100" cy="290" r="3"/><circle cx="1130" cy="70" r="2"/><circle cx="778" cy="283" r="2"/></g>
+<rect x="1" y="1" width="1198" height="358" rx="20" fill="none" stroke="#a78bfa" stroke-opacity=".18"/>
+</svg>
