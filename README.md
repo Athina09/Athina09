@@ -8,7 +8,7 @@
 
 [Home](https://github.com/Athina09) · [About](#cathina-type-abouttxt) · [View source](https://github.com/Athina09/Athina09)
 
-<sub>Best viewed with curiosity. No dial-up required.</sub>
+<sub>Full-stack development · Applied AI · Cloud computing</sub>
 
 </div>
 
@@ -16,13 +16,15 @@
 
 ### `C:\ATHINA> TYPE ABOUT.TXT`
 
-Hi, I'm **Athina**, a CSE student at **Chennai Institute of Technology**. I like making interfaces, experimenting with AI, and figuring out why my code broke five minutes after it worked.
+Hi, I’m **Athina**, a Computer Science student at **Chennai Institute of Technology**, focused on **full-stack development, AI-powered applications, and cloud computing**.
 
-I'm building my way through computer science: web projects, data structures and algorithms, and the occasional idea that starts with “what if?”
+I enjoy connecting thoughtful interfaces with reliable backend systems and turning ideas into working software. Through projects, internships, and open-source contributions, I’m strengthening both my engineering fundamentals and my ability to collaborate on real-world applications.
 
-**Currently exploring:** AI and cloud computing.  
-**Currently practising:** problem solving and writing clearer code.  
-**Still loading:** everything I haven't learned yet.
+**Building:** web applications and AI-powered tools with a focus on usability and practical impact.  
+**Deepening my skills:** data structures, algorithms, backend development, and cloud deployment.  
+**Long-term interests:** exploring how computer science and AI can contribute to aerospace and space technology.
+
+<img src="assets/boot.svg" width="100%" alt="Animated retro boot sequence introducing interfaces, application systems, AI and cloud tools." />
 
 ### `C:\ATHINA> DIR PROJECTS`
 
@@ -37,20 +39,49 @@ Building behind the scenes. Public releases when they're ready.
 
 ```ini
 [languages]
-working_with = C, C++, Python, JavaScript
-learning     = Java
+stack        = C, C++, Python, JavaScript, Java, SQL
 
-[web]
-interface    = HTML, CSS, Tailwind CSS, React
+[frontend]
+stack        = HTML5, CSS3, React, Tailwind CSS
+skills       = Responsive Design, DOM Manipulation, API Integration
 
-[workbench]
-tools        = Git, GitHub, VS Code
-method       = build, debug, understand, repeat
+[backend_learning]
+stack        = Node.js, Express.js
+skills       = REST APIs, Routing, Middleware, HTTP
+focus        = Authentication, Input Validation, Error Handling
+
+[databases]
+learning     = PostgreSQL, SQLite
+skills       = CRUD Operations, SQL Queries, Relational Data Modelling
+
+[ai_and_ml]
+tools        = Hugging Face, Gradio, Ollama, Stable Diffusion
+exploring    = OpenCV, Computer Vision, Generative AI
+skills       = Model Integration, Prompt Design, AI Prototyping
+
+[cloud_and_deployment]
+platforms    = AWS, Azure, Vercel, Hugging Face Spaces
+exploring    = AWS Lambda, Serverless Computing
+practice     = Environment Variables, DNS, CORS, Deployment Debugging
+
+[cs_fundamentals]
+core         = Object-Oriented Programming, Data Structures, Algorithms
+practice     = Arrays, Strings, Hash Maps, Linked Lists, Stacks, Queues
+techniques   = Two Pointers, Sliding Window, Binary Search, Recursion
+
+[developer_tools]
+workspace    = VS Code, Git, GitHub
+toolchain    = npm, pip, Python venv, GCC, Clang
+terminal     = Bash, Zsh
+
+[collaboration]
+practice     = Open-Source Contributions, Pull Requests, Technical Writing
+strengths    = Problem Solving, Teamwork, Communication
 ```
 
 ### `C:\ATHINA> RUN SNAKE.EXE`
 
-A little arcade break, powered by my actual GitHub contributions.
+My GitHub contributions, rendered as a classic snake animation.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Athina09/Athina09/output/github-snake-dark.svg" />
@@ -62,10 +93,10 @@ A little arcade break, powered by my actual GitHub contributions.
 
 <div align="center">
 
-**YOU HAVE REACHED THE END OF THIS FILE.**
+<img src="assets/save.svg" width="100%" alt="Animated floppy-disk save window: Learn. Build. Refine." />
 
 [← Back to profile](https://github.com/Athina09)
 
-<sub>Made of small experiments, stubborn bugs, and a lot of learning.</sub>
+<sub>Building with purpose. Improving with every iteration.</sub>
 
 </div>
