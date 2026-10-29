@@ -94,8 +94,6 @@ strengths    = Problem Solving, Teamwork, Communication
 
 ### `C:\ATHINA> RUN SNAKE.EXE`
 
-My GitHub contributions, rendered as a classic snake animation.
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Athina09/Athina09/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Athina09/Athina09/output/github-snake.svg" />
