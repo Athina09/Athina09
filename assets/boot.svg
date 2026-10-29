@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="260" viewBox="0 0 1040 260" role="img" aria-labelledby="t d">
+<title id="t">Athina system boot sequence</title><desc id="d">Decorative boot animation: loading interfaces, APIs, AI experiments and cloud tools. All text remains available with reduced motion.</desc>
+<style>@keyframes reveal{0%,8%{opacity:0}16%,100%{opacity:1}}@keyframes blink{50%{opacity:0}}@keyframes sweep{0%{transform:translateX(0)}100%{transform:translateX(154px)}}.line{animation:reveal 10s steps(1) infinite}.two{animation-delay:1s}.three{animation-delay:2s}.four{animation-delay:3s}.cursor{animation:blink 1s steps(1) infinite}.sweep{animation:sweep 2.5s linear infinite alternate}@media(prefers-reduced-motion:reduce){.line,.cursor,.sweep{animation:none}}</style>
+<rect x="1" y="1" width="1038" height="258" fill="#c0c0c0" stroke="#808080" stroke-width="2"/>
+<path d="M2 258V2h1036" fill="none" stroke="#fff" stroke-width="3"/><rect x="7" y="7" width="1026" height="28" fill="#000080"/>
+<text x="19" y="27" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#fff" font-size="15" font-weight="bold">SYSTEM MONITOR — ATHINA09</text><text x="1005" y="27" font-family="DejaVu Sans Mono, Courier New, monospace" fill="white" font-size="17">×</text>
+<rect x="12" y="43" width="1016" height="204" fill="#09120e"/>
+<g font-family="DejaVu Sans Mono, Courier New, monospace" font-size="17" fill="#82ff97"><text x="32" y="74">ATHINA WORKSTATION / INITIALISING MODULES</text>
+<g class="line"><text x="32" y="109">[01] Interface design</text><text x="490" y="109" fill="#b7cbb9">HTML · CSS · React · Tailwind</text></g>
+<g class="line two"><text x="32" y="140">[02] Application systems</text><text x="490" y="140" fill="#b7cbb9">Node.js · Express · SQL</text></g>
+<g class="line three"><text x="32" y="171">[03] Intelligent applications</text><text x="490" y="171" fill="#b7cbb9">Python · OpenCV · AI models</text></g>
+<g class="line four"><text x="32" y="202">[04] Cloud &amp; deployment</text><text x="490" y="202" fill="#b7cbb9">AWS · Azure · Vercel</text></g>
+<text x="32" y="231" font-size="13" fill="#aac1ad">C:\ATHINA&gt; continue_learning.exe</text><rect class="cursor" x="293" y="220" width="8" height="12"/></g>
+<rect x="806" y="219" width="195" height="12" fill="#183723"/><rect class="sweep" x="807" y="220" width="38" height="10" fill="#82ff97"/></svg>
