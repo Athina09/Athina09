@@ -50,12 +50,11 @@ stack      = TypeScript, Java, Node.js, Express.js
 databases  = PostgreSQL, SQLite, MongoDB, Supabase
 ```
 
-### `C:\ATHINA> RUN SNAKE.EXE`
+### `C:\ATHINA> RENDER SKYLINE.EXE`
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Athina09/Athina09/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Athina09/Athina09/output/github-snake.svg" />
-  <img width="100%" alt="A snake eating my GitHub contribution grid." src="https://raw.githubusercontent.com/Athina09/Athina09/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg" />
+  <img width="100%" alt="My GitHub contributions as a 3D skyline of buildings." src="profile-3d-contrib/profile-green-animate.svg" />
 </picture>
 
 ---
