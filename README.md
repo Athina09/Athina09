@@ -24,7 +24,7 @@ I enjoy connecting thoughtful interfaces with reliable backend systems and turni
 **Engineering interests:** building scalable systems and designing algorithms for data-intensive applications.  
 **Beyond software:** a strong interest in space and the technology that makes exploration possible.
 
-<img src="assets/boot.svg" width="100%" alt="Animated retro boot sequence introducing interfaces, application systems, AI and cloud tools." />
+<img src="assets/boot.svg" width="100%" alt="Animated System Monitor scrolling through my languages, frontend, AI tools, cloud, developer tools and learning stack." />
 
 ### `C:\ATHINA> DIR PROJECTS`
 
@@ -38,58 +38,16 @@ Building behind the scenes. Public releases when they're ready.
 ### `C:\ATHINA> TYPE TOOLBOX.INI`
 
 ```ini
-[languages]
-working_with = JavaScript, Python, C, C++, SQL
-learning     = TypeScript, Java
-web          = HTML5, CSS3
+[toolbox]
+languages  = JavaScript, Python, C, C++, SQL
+frontend   = HTML, CSS, React, Tailwind CSS, Vite
+ai_tools   = OpenCV, Hugging Face, Gradio, Ollama
+cloud      = AWS, Azure, Vercel
+tools      = Git, GitHub, VS Code, npm, pip
 
-[frontend]
-stack        = React, Tailwind CSS, Vite
-practice     = Responsive Layouts, Flexbox, CSS Grid, DOM Manipulation
-building     = Reusable Components, Forms, Client-Side API Integration
-learning     = React Hooks, State Management, Routing, Accessibility
-
-[backend]
-learning     = Node.js, Express.js
-focus        = REST APIs, HTTP, Routing, Middleware, Async Programming
-building     = CRUD Endpoints, Input Validation, Centralised Error Handling
-exploring    = File Uploads, Pagination, Filtering, API Documentation
-
-[databases]
-learning     = PostgreSQL, SQLite, MongoDB Atlas
-focus        = SQL Queries, Joins, Relationships, Schema Design
-exploring    = Supabase, Database Indexes, Migrations
-
-[authentication_and_security]
-learning     = Sessions, Cookies, JWT, Password Hashing
-focus        = Protected Routes, Role-Based Access, Server-Side Validation
-practice     = Environment Variables, CORS, Secret Management
-
-[testing_and_quality]
-practice     = Browser DevTools, Network Inspection, Deployment Debugging
-learning     = Postman, API Testing, Unit Testing, Integration Testing
-exploring    = Vitest, React Testing Library, ESLint, Prettier
-
-[ai_and_ml]
-tools        = Hugging Face, Gradio, Ollama, Stable Diffusion
-exploring    = OpenCV, Computer Vision, Generative AI
-skills       = Model Integration, Prompt Design, AI Prototyping
-
-[cloud_and_deployment]
-platforms    = AWS, Azure, Vercel, Hugging Face Spaces
-practice     = DNS Configuration, Environment Setup, Deployment Debugging
-exploring    = AWS Lambda, Serverless Functions, GitHub Actions, CI/CD
-learning     = Docker, Application Logs, Monitoring
-
-[developer_tools]
-workspace    = VS Code, Git, GitHub
-toolchain    = npm, pip, Python venv, GCC, Clang
-terminal     = Bash, Zsh
-workflow     = Branches, Pull Requests, Code Review, Merge Conflict Resolution
-
-[collaboration]
-practice     = Open-Source Contributions, Technical Writing, Documentation
-strengths    = Problem Solving, Teamwork, Communication
+[learning]
+stack      = TypeScript, Java, Node.js, Express.js
+databases  = PostgreSQL, SQLite, MongoDB, Supabase
 ```
 
 ### `C:\ATHINA> RUN SNAKE.EXE`
