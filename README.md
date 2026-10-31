@@ -50,6 +50,8 @@ stack      = TypeScript, Java, Node.js, Express.js
 databases  = PostgreSQL, SQLite, MongoDB, Supabase
 ```
 
+<img src="assets/network.svg" width="100%" alt="Animated retro network map showing green request and response packets travelling between browser, API, database and cloud." />
+
 ### `C:\ATHINA> RENDER SKYLINE.EXE`
 
 <picture>
