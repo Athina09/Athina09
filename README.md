@@ -57,6 +57,8 @@ databases  = PostgreSQL, SQLite, MongoDB, Supabase
   <img width="100%" alt="My GitHub contributions as a 3D skyline of buildings." src="profile-3d-contrib/profile-green-animate.svg" />
 </picture>
 
+<sub>Radar: activity counts on a logarithmic scale, not percentages. Updated daily; visibility depends on GitHub API access.</sub>
+
 ---
 
 <div align="center">
