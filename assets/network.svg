@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="270" viewBox="0 0 1040 270" role="img" aria-labelledby="title desc">
+<title id="title">Athina's full-stack network</title>
+<desc id="desc">A decorative 1990s network monitor. Green request and response packets travel between a browser, API, database and cloud. This animation is illustrative, not live telemetry.</desc>
+<style>
+text{font-family:Courier New,monospace}
+.packet{fill:#8fffaa;animation:request 6s linear infinite}
+.reply{fill:#38c98a;animation:reply 6s linear infinite}
+@keyframes request{0%,8%{transform:translateX(0);opacity:0}10%{opacity:1}42%{transform:translateX(680px);opacity:1}44%,100%{transform:translateX(680px);opacity:0}}
+@keyframes reply{0%,48%{transform:translateX(0);opacity:0}50%{opacity:1}88%{transform:translateX(-680px);opacity:1}90%,100%{transform:translateX(-680px);opacity:0}}
+.led{animation:pulse 3s steps(1) infinite}
+@keyframes pulse{50%{opacity:.3}}
+@media(prefers-reduced-motion:reduce){.packet,.reply,.led{animation:none}.packet{transform:translateX(330px)}.reply{transform:translateX(-330px)}}
+</style>
+<rect x="1" y="1" width="1038" height="268" fill="#c0c0c0" stroke="#808080" stroke-width="2"/>
+<path d="M2 268V2h1036" fill="none" stroke="#fff" stroke-width="3"/>
+<rect x="7" y="7" width="1026" height="27" fill="#000080"/>
+<text x="19" y="26" fill="#fff" font-size="15" font-weight="bold">NETWORK NEIGHBORHOOD / ATHINA.NET</text>
+<g fill="#c0c0c0" stroke="#fff"><rect x="973" y="12" width="22" height="17"/><rect x="1003" y="12" width="22" height="17"/></g>
+<path d="M978 25h12m18-10 12 11m0-11-12 11" stroke="#222" stroke-width="2"/>
+<rect x="15" y="44" width="1010" height="192" fill="#091a16" stroke="#808080" stroke-width="2"/>
+<path d="M170 118H870M170 143H870" stroke="#276048" stroke-width="2"/>
+<path d="m843 113 8 5-8 5M197 138l-8 5 8 5" fill="none" stroke="#66c490" stroke-width="2"/>
+<rect class="packet" x="175" y="113" width="10" height="10"/>
+<rect class="reply" x="855" y="138" width="10" height="10"/>
+<g fill="#102b22" stroke="#66c490" stroke-width="2">
+<rect x="66" y="77" width="130" height="91" rx="2"/>
+<rect x="326" y="77" width="130" height="91" rx="2"/>
+<path d="M586 89c0-17 130-17 130 0v65c0 19-130 19-130 0Z"/>
+<path d="M846 151h100c32 0 34-47 4-51-4-34-56-37-68-10-30-8-51 26-36 41-11 1-12 20 0 20Z"/>
+</g>
+<g fill="none" stroke="#66c490" stroke-width="2">
+<path d="M67 97h128M587 89c0 18 129 18 129 0M587 119c0 18 129 18 129 0"/>
+<path d="m366 112-12 12 12 12m50-24 12 12-12 12m-20-28-10 56"/>
+</g>
+<g fill="#8fffaa"><rect x="76" y="84" width="5" height="5"/><rect x="87" y="84" width="5" height="5"/><rect x="98" y="84" width="5" height="5"/>
+<rect x="80" y="111" width="39" height="42" opacity=".35"/><rect x="129" y="111" width="52" height="5"/><rect x="129" y="124" width="42" height="5"/><rect x="129" y="137" width="48" height="5"/>
+<rect class="led" x="435" y="151" width="7" height="7"/>
+</g>
+<g fill="#d2efdc" font-size="17" font-weight="bold" text-anchor="middle">
+<text x="131" y="198">BROWSER</text><text x="391" y="198">API</text><text x="651" y="198">DATABASE</text><text x="911" y="198">CLOUD</text>
+</g>
+<g fill="#7aa98c" font-size="12" text-anchor="middle">
+<text x="131" y="218">INTERFACE</text><text x="391" y="218">LOGIC</text><text x="651" y="218">PERSISTENCE</text><text x="911" y="218">DEPLOYMENT</text>
+</g>
+<rect x="16" y="245" width="8" height="8" fill="#008040"/>
+<text x="32" y="254" fill="#202820" font-size="12">FULL-STACK SYSTEMS</text>
+<text x="1019" y="254" fill="#333" font-size="12" text-anchor="end">REQUEST → RESPONSE · CONCEPT ANIMATION</text>
+</svg>
