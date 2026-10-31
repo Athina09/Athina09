@@ -22,9 +22,50 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
+      - name: Keep the skyline green year-round
+        run: |
+          cat > /tmp/skyline-settings.json <<'JSON'
+          [
+            {
+              "type": "normal",
+              "backgroundColor": "#ffffff",
+              "foregroundColor": "#00000f",
+              "strongColor": "#111133",
+              "weakColor": "gray",
+              "radarColor": "#47a042",
+              "contribColors": [
+                "#efefef",
+                "#d8e887",
+                "#8cc569",
+                "#47a042",
+                "#1d6a23"
+              ],
+              "fileName": "profile-green-animate.svg",
+              "growingAnimation": true
+            },
+            {
+              "type": "normal",
+              "backgroundColor": "#00000f",
+              "foregroundColor": "#eeeeff",
+              "strongColor": "rgb(255,200,55)",
+              "weakColor": "#aaaaaa",
+              "radarColor": "#47a042",
+              "contribColors": [
+                "#444444",
+                "#1B7D28",
+                "#24A736",
+                "#2DD143",
+                "#57DA69"
+              ],
+              "fileName": "profile-night-green.svg",
+              "growingAnimation": true
+            }
+          ]
+          JSON
       - name: Generate 3D contribution buildings
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:
+          SETTING_JSON: /tmp/skyline-settings.json
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Publish skyline images
