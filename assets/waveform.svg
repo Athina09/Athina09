@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="24" viewBox="0 0 1040 24" role="img" aria-labelledby="title">
+<title id="title">Subtle green waveform divider</title>
+<style>
+@keyframes drift{to{transform:translateX(-260px)}}
+.wave{animation:drift 18s linear infinite}
+@media(prefers-reduced-motion:reduce){.wave{animation:none}}
+</style>
+<defs>
+<pattern id="signal" width="260" height="24" patternUnits="userSpaceOnUse">
+<path d="M0 12H50C65 12 65 8 80 8S95 16 110 16S125 8 140 8S155 16 170 16S185 12 200 12H260" fill="none" stroke="#428761" stroke-width="1.25" stroke-linecap="round" opacity=".7"/>
+</pattern>
+</defs>
+<rect class="wave" width="1300" height="24" fill="url(#signal)"/>
+</svg>
