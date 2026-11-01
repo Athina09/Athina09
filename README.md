@@ -35,8 +35,6 @@ All my projects are private for now.
 
 Building behind the scenes. Public releases when they're ready.
 
-<img src="assets/waveform.svg" width="100%" alt="Subtle green waveform divider" />
-
 ### `C:\ATHINA> TYPE TOOLBOX.INI`
 
 ```ini
